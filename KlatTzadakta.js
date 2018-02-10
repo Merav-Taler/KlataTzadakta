@@ -1802,8 +1802,8 @@ p.nominalBounds = new cjs.Rectangle(-120,-110,240,220);
 		var home = this;
 		sounds();
 		function sounds() {
-			createjs.Sound.registerSound("/sounds/fail.mp3", "FAIL");
-			createjs.Sound.registerSound("/sounds/success.mp3", "SUCCESS");
+			createjs.Sound.registerSound("https://merav-taler.github.io/KlataTzadakta/sounds/fail.mp3", "FAIL");
+			createjs.Sound.registerSound("https://merav-taler.github.io/KlataTzadakta/sounds/success.mp3", "SUCCESS");
 		}
 		$("#canvas").css("direction", "rtl");
 		var stageWidth = parseInt(canvas.style.width);
